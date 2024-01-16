@@ -1,5 +1,4 @@
 function reverseString(text) {
-    const split = text.split("").reverse().join("");
-    return split
+    return text.split("").reverse().join("");
 }
 reverseString('Практика');
