@@ -1,4 +1,4 @@
-const twoSun = function (nums, target) {
+const twoSum = function (nums, target) {
     let total = [];
     for(let i = 0; i < nums.length;i++){
         for (let j = i + 1; j < nums.length ;j++){
@@ -10,4 +10,4 @@ const twoSun = function (nums, target) {
     }
     return total
 };
-console.log(twoSun([2,7,11,15],9));
+console.log(twoSum([2,7,11,15],9));
