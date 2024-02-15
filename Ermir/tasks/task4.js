@@ -26,6 +26,5 @@ let Host = {
 
 let initialList = ['Ивон', 'Петр', 'Алексей', 'Мария', 'Селена', 'Наташа', 'Ольга', 'Маша'];
 Host.setGuestList(initialList);
-console.log(Host.guestList)
 
 
